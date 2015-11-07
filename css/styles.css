@@ -9,15 +9,14 @@
     }
 }
 
-@keyframes swipein_left {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+.content {
+    width: 100%;
+}
+
+.flexslider {
+    max-width: 70%;
+    width: auto;
+    margin: 0 auto;
 }
 
 .flex-caption {
@@ -26,10 +25,6 @@
 }
 
 .flex-active-slide .flex-caption {
-    animation: 1s ease 0.5s normal both 1 running swipein_left;
+    animation: swipein_left 1s ease 0.5s normal both 1 running;
 }
 
-.featured-slider {
-    overflow: hidden;
-    position: relative;
-}
