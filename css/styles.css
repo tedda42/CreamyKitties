@@ -26,10 +26,16 @@
 }
 
 .flex-caption {
-    font-size: 8em;
-    text-align: center;
+    font-size: 6em;
     height: 400px;
     line-height: 400px;
+    text-align: center;
+}
+
+.flex-caption span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 .flex-active-slide .flex-caption {
