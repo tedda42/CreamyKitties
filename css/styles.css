@@ -26,19 +26,48 @@
 }
 
 .flex-caption {
-    font-size: 6em;
+    font-size: 8em;
+    text-align: center;
     height: 400px;
     line-height: 400px;
-    text-align: center;
-}
-
-.flex-caption span {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+    color: #BFFFF1;
+    font-family: courier new;
 }
 
 .flex-active-slide .flex-caption {
     animation: swipein_left 1s ease 0.5s normal both 1 running;
 }
+
+h1 {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+}
+
+p {
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+p.indexleft {
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+p.indexright {
+    text-align: right;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
 
