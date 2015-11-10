@@ -26,12 +26,22 @@
 }
 
 .flex-caption {
-    font-size: 8em;
-    text-align: center;
     height: 400px;
     line-height: 400px;
+    text-align: center;
+}
+
+.flex-caption span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 8em;
+    font-family: courier new, monospace;
     color: #BFFFF1;
-    font-family: courier new;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .flex-active-slide .flex-caption {
@@ -39,34 +49,22 @@
 }
 
 h1 {
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 0px;
-    padding-left: 50px;
+    padding: 50px 50px 0;
 }
 
 p {
     text-align: left;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
+    padding: 50px;
 }
 
 p.indexleft {
     text-align: left;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
+    padding: 50px;
 }
 
 p.indexright {
     text-align: right;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
+    padding: 50px;
 }
 
 
