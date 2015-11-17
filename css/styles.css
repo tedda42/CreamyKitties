@@ -107,6 +107,11 @@ caption {
     color: #1b6d85;
 }
 
+#footer p {
+    margin: 0;
+    padding: 10px;
+}
+
 
 
 
