@@ -12,65 +12,70 @@
     <script src="js/myScripts.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Creamy Kitties</a>
+<div id="wrapper">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Creamy Kitties</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Flavours<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="breeds.html">Flavours</a></li>
+                            <li><a href="toppings.html">Toppings</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="mailto:creamy-kitties@example.com"><span class="glyphicon glyphicon-envelope"></span>
+                        Email</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Flavours<span
-                            class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="breeds.html">Flavours</a></li>
-                        <li><a href="toppings.html">Toppings</a></li>
-                    </ul>
-                </li>
-                <li class="active"><a href="contact.html">Contact Us</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="mailto:creamy-kitties@example.com"><span class="glyphicon glyphicon-envelope"></span> Email</a></li>
-            </ul>
+    </nav>
+
+
+    <h1>Contact Us</h1>
+    <table style="width:50%" class="contact">
+        <tr class="contact">
+            <td class="contact" style="color: #1b6d85;"><b>Email:</b></td>
+            <td class="contact"><a href="mailto:creamy-kitties@example.com">creamy-kitties@example.com</a></td>
+        </tr>
+        <tr class="contact">
+            <td class="contact" style="color: #1b6d85;"><b>Phone:</b></td>
+            <td class="contact">0412 345 678</td>
+        </tr>
+        <tr class="contact">
+            <td class="contact" style="color: #1b6d85;"><b>Address:</b></td>
+            <td class="contact">123 Queen St, Melbourne VIC 3000</td>
+        </tr>
+    </table>
+    <p>We would love to hear from you, so shoot us an email, give us a call, or pop in to our shop on Queen St in the
+        CBD</p>
+    <br>
+    <br>
+    <br>
+
+    <p><em><b>Disclaimer: The phone numbers, address and contact
+        details are solely presented here for the purposes of demonstrating this website.
+        They are not owned by the developer or CreamyKitties<sup>TM</sup></b></em></p>
+
+    <div id="footer">
+        <div class="box">
+            <p class="footerindex">HTML Designs | Creamy Kitties | 2015</p>
         </div>
     </div>
-</nav>
-
-
-<h1>Contact Us</h1>
-<table style="width:50%" class="contact">
-    <tr class="contact">
-        <td class="contact" style="color: #1b6d85;"><b>Email:</b></td>
-        <td class="contact"><a href="mailto:creamy-kitties@example.com">creamy-kitties@example.com</a></td>
-    </tr>
-    <tr class="contact">
-        <td class="contact" style="color: #1b6d85;"><b>Phone:</b></td>
-        <td class="contact">0412 345 678</td>
-    </tr>
-    <tr class="contact">
-        <td class="contact" style="color: #1b6d85;"><b>Address:</b></td>
-        <td class="contact">123 Queen St, Melbourne VIC 3000</td>
-    </tr>
-</table>
-<p>We would love to hear from you, so shoot us an email, give us a call, or pop in to our shop on Queen St in the CBD</p>
-<br>
-<br>
-<br>
-<p><em><b>Disclaimer: The phone numbers, address and contact
-    details are solely presented here for the purposes of demonstrating this website.
-    They are not owned by the developer or CreamyKitties<sup>TM</sup></b></em></p>
-
-<footer class="footer">
-    <div class="box">
-        <p class="footerindex">HTML Designs | Creamy Kitties | 2015</p>
-    </div>
-</footer>
+</div>
 </body>
 </html>
