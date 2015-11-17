@@ -61,15 +61,23 @@ img.breeds {
     float: right;
 }
 
-p {
+p.index {
     text-align: center;
-    padding: 0 50px 50px 50px;
+    padding: 0 50px 25px 50px;
+    font-family: josefin, sans-serif;
+    font-size: 20px;
 }
 
-a {
-	 text-align: center;
-     padding: 50px;
-     color: red;
+a.index {
+    text-align: center;
+    padding: 0;
+    color: #1b6d85;
+    font-family: arial, sans-serif;
+    font-size: 40px;
+}
+
+p {
+    margin: 0 50px;
 }
 
 table, th, td {
@@ -77,6 +85,7 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
 th, td {
     padding: 5px;
     text-align: left;
@@ -87,6 +96,7 @@ table.contact, th.contact, td.contact {
     border: 0;
     border-collapse: collapse;
 }
+
 th.contact, td.contact {
     padding: 15px;
     text-align: left;
