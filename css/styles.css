@@ -41,7 +41,7 @@
     line-height: normal;
     font-size: 8em;
     font-family: courier new, monospace;
-    color: #558887;
+    color: #4F7CAC;
     font-weight: bold;
     text-shadow: -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -57,9 +57,13 @@ h1 {
     padding: 50px 50px 0;
 }
 
+img.breeds {
+    float: right;
+}
+
 p {
     text-align: center;
-    padding: 50px;
+    padding: 0 50px 50px 50px;
 }
 
 a {
@@ -69,13 +73,28 @@ a {
 }
 
 table, th, td {
-	margin: 50px;
+    margin: 50px;
     border: 1px solid black;
     border-collapse: collapse;
 }
 th, td {
     padding: 5px;
     text-align: left;
+}
+
+table.contact, th.contact, td.contact {
+    margin: 50px;
+    border: 0;
+    border-collapse: collapse;
+}
+th.contact, td.contact {
+    padding: 15px;
+    text-align: left;
+}
+
+caption {
+    font-size: 20px;
+    color: #1b6d85;
 }
 
 
