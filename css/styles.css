@@ -20,14 +20,17 @@ html, body {
     .breeds {
         display: none;
     }
+
     img.flavours {
         max-width: 100%;
     }
 }
+
 @media only screen and (min-width: 850px) {
     .breeds {
         display: inline;
     }
+
     img.flavours {
         max-width: 70%;
     }
@@ -88,7 +91,7 @@ h1 {
 
 p.index {
     text-align: left;
-    padding: 25px 25px 25px 25px;
+    padding: 0 25px 0;
     font-family: josefin, sans-serif;
     font-size: 15px;
 }
@@ -96,7 +99,6 @@ p.index {
 p {
     margin: 0 50px;
 }
-
 
 table, th, td {
     margin: 50px;
@@ -148,7 +150,7 @@ ul.about {
 }
 
 li.about {
-    padding-left: 50px;
+    margin-left: 50px;
     font-size: 15px;
 }
 
@@ -156,5 +158,18 @@ img.breeds {
     float: right;
 }
 
+.responsive {
+    position: relative;
+    padding-bottom: 75%; /*This is the aspect ratio*/
+    height: 0;
+    overflow: hidden;
+    text-align: center;
+}
 
-
+.responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70% !important;
+    height: 70% !important;
+}
