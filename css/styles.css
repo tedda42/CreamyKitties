@@ -16,6 +16,23 @@ html, body {
     }
 }
 
+@media only screen and (max-width: 850px) {
+    .breeds {
+        display: none;
+    }
+    img.flavours {
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .breeds {
+        display: inline;
+    }
+    img.flavours {
+        max-width: 70%;
+    }
+}
+
 @keyframes swipein_left {
     0% {
         opacity: 0;
@@ -69,10 +86,6 @@ h1 {
     padding: 50px 50px 0 50px;
 }
 
-img.breeds {
-    float: right;
-}
-
 p.index {
     text-align: left;
     padding: 25px 25px 25px 25px;
@@ -80,10 +93,10 @@ p.index {
     font-size: 15px;
 }
 
-
 p {
     margin: 0 50px;
 }
+
 
 table, th, td {
     margin: 50px;
@@ -139,6 +152,9 @@ li.about {
     font-size: 15px;
 }
 
+img.breeds {
+    float: right;
+}
 
 
 
