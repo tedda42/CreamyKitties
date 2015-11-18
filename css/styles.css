@@ -66,7 +66,7 @@ html, body {
 }
 
 h1 {
-    padding: 50px 50px 0;
+    padding: 50px 50px 0 50px;
 }
 
 img.breeds {
@@ -74,19 +74,12 @@ img.breeds {
 }
 
 p.index {
-    text-align: center;
-    padding: 0 50px 25px 50px;
+    text-align: left;
+    padding: 25px 25px 25px 25px;
     font-family: josefin, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-a.index {
-    text-align: left;
-    padding: 0;
-    color: #1b6d85;
-    font-family: arial, sans-serif;
-    font-size: 40px;
-}
 
 p {
     margin: 0 50px;
@@ -135,6 +128,15 @@ div.box {
 
 p.footerindex {
     text-align: center;
+}
+
+ul.about {
+    padding-left: 50px;
+}
+
+li.about {
+    padding-left: 50px;
+    font-size: 15px;
 }
 
 
